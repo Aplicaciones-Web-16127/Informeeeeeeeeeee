@@ -1,6 +1,39 @@
-# Informe del Proyecto
+<div align="center">
+    <img src="assets/logoUPC.png">
 
-# Carátula
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
+**Carrera de Ingeniería de Software**
+
+**1ASI0730** <br>
+**Aplicaciones Web** <br>
+NRC <br>
+**16127**
+
+## **Informe del Trabajo Final**
+Docente <br>
+#### **Villafuerte Bazan, Oscar Ivan**
+Equipo <br>
+#### **pordefinir**
+Proyecto <br>
+#### **TrackTravel**
+
+**Integrantes**
+
+<div style="text-align: center;">
+    <table style="margin: 0 auto; display: inline-table;">
+        <tr><th>Código</th><th>Apellidos y Nombres</th></tr>
+        <tr><th>U20241F027</th><th>Alca Morán, César Alejandro</th></tr>
+        <tr><th>U202323551</th><th>Rivas Castillo, Christoper Steven</th></tr>
+        <tr><th>U20241F109</th><th>Rivas Méndez, Bernie Aarón</th></tr>
+        <tr><th>U20241D811</th><th>Saavedra Flores, Rodrigo Andree</th></tr>
+        <tr><th>U202421618</th><th>Tello Lima, Jose Alejandro</th></tr>
+    </table>
+</div>
+
+**Periodo 202620**
+
+<strong>Agosto, 2026</strong>
 
 # Registro de Versiones del Informe
 
