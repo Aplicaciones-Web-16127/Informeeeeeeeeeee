@@ -24,9 +24,9 @@ Proyecto <br>
     <table style="margin: 0 auto; display: inline-table;">
         <tr><th>Código</th><th>Apellidos y Nombres</th></tr>
         <tr><th>U20241F027</th><th>Alca Morán, César Alejandro</th></tr>
+        <tr><th>U20241D920</th><th>Centeno León, Adriano Samir</th></tr>
         <tr><th>U202323551</th><th>Rivas Castillo, Christoper Steven</th></tr>
         <tr><th>U20241F109</th><th>Rivas Méndez, Bernie Aarón</th></tr>
-        <tr><th>U20241D811</th><th>Saavedra Flores, Rodrigo Andree</th></tr>
         <tr><th>U202421618</th><th>Tello Lima, Jose Alejandro</th></tr>
     </table>
 </div>
