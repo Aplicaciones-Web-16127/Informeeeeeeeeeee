@@ -17,7 +17,7 @@ Nuestro grupo de trabajo tiene el propósito de generar un cambio positivo en el
 |:---:|:---|
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Alca Morán, César Alejandro - U20241F027**<br>descripción |
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Centeno León, Adriano Samir - U20241D920**<br>descripción |
-| <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Rivas Méndez, Bernie Aarón - U20241F109**<br>Soy un estudiante de la carrera de Ingeniería de Software y curso el 5to ciclo de la carrera. En cuanto a los trabajos me gusta revisar y que estén completos a la hora de entregarlos. En cuanto a la programación me gusta ser ordenado y que tenga lógica, por lo cual prefiero programar el BackEnd, pero también hago el FrontEnd.|
+| <img src="../assets/Rivas Méndez, Bernie Aarón - U20241F109 - Profile.PNG" alt="Foto" width="120"> | **Rivas Méndez, Bernie Aarón - U20241F109**<br>Soy un estudiante de la carrera de Ingeniería de Software y curso el 5to ciclo de la carrera. En cuanto a los trabajos me gusta revisar y que estén completos a la hora de entregarlos. En cuanto a la programación me gusta ser ordenado y que tenga lógica, por lo cual prefiero programar el BackEnd, pero también hago el FrontEnd.|
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Rivas Castillo, Christoper Steven - U202323551**<br>descripción |
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Tello Lima, Jose Alejandro - U202421618**<br>Soy estudiante de Ingeniería de Software. Aporto conocimientos en diseño de experiencias de usuario, interfaces web responsivas y mapeo de trayectorias utilizando herramientas como Figma y UXPressia, asegurando que la plataforma sea altamente intuitiva para el cliente. |
 
