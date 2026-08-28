@@ -34,12 +34,13 @@ Proyecto <br>
 **Periodo 202620**
 
 <strong>Agosto, 2026</strong>
+</div>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
 
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
-# Contenido
+## Contenido
 
 ## Tabla de contenidos
 - [Carátula](#carátula)
