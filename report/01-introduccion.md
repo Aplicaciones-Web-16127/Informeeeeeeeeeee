@@ -3,15 +3,13 @@
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-Refrio es una startup tecnológica peruana dedicada al diseño y desarrollo de soluciones digitales innovadoras para la gestión de inventario, monitoreo de temperatura y la distribución eficiente de productos perecibles. La empresa nace con la convicción de que la tecnología y el Internet de las Cosas (IoT) pueden ser herramientas clave para reducir pérdidas económicas, evitar el desperdicio de alimentos y asegurar la trazabilidad en la cadena de frío.
+Agroflet es una startup tecnológica peruana enfocada en la creación y diseño de herramientas digitales para administrar inventarios y optimizar la distribución de bienes perecibles. Nuestra iniciativa se fundamenta en la premisa de que la tecnología resulta indispensable para disminuir las mermas, mejorar la logística y llevar un control exhaustivo de los artículos sensibles al paso del tiempo. En Agroflet operamos bajo un modelo centrado en el cliente, uniendo interfaces digitales amigables, seguimiento continuo y procesamiento de datos para que los negocios del rubro comercial y alimentario puedan gestionar su stock con mayor eficacia.
 
-Se trabaja bajo un enfoque centrado en el usuario para lograr una gestión de stock automatizada, predictiva y en tiempo real. Al integrar alertas inteligentes de vencimiento y telemetría de temperatura constante, Refrio ayuda a empresas distribuidoras y comerciantes locales a tomar decisiones logísticas informadas, optimizando la rotación del inventario mediante políticas FEFO (First Expired, First Out).
+Nuestro grupo de trabajo tiene el propósito de generar un cambio positivo en el sector, entregando valor a los comerciantes y distribuidores a través de la digitalización para reducir el desperdicio y potenciar las operaciones logísticas.
 
-El equipo multidisciplinario de la startup busca transformar la logística de frío en el mercado nacional, aportando valor a toda la cadena de suministro —desde los grandes distribuidores hasta las bodegas de barrio— para garantizar que los productos lleguen al consumidor final en óptimas condiciones de conservación.
+**Misión:** Optimizar el control de inventarios y el flujo de distribución de artículos perecederos por medio de plataformas tecnológicas seguras y de alto rendimiento.
 
-**Misión:** Optimizar la gestión de inventarios y salvaguardar la cadena de frío de productos perecibles mediante soluciones tecnológicas eficientes, accesibles y confiables.
-
-**Visión:** Ser la plataforma líder en el monitoreo inteligente de temperatura y distribución de productos perecibles a nivel nacional.
+**Visión:** Posicionarnos como la herramienta principal en la gestión automatizada de stock y distribución de perecibles en el mercado peruano.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -24,7 +22,7 @@ El equipo multidisciplinario de la startup busca transformar la logística de fr
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Tello Lima, Jose Alejandro - U202421618**<br>Soy estudiante de Ingeniería de Software. Aporto conocimientos en diseño de experiencias de usuario, interfaces web responsivas y mapeo de trayectorias utilizando herramientas como Figma y UXPressia, asegurando que la plataforma sea altamente intuitiva para el cliente. |
 
 ## 1.2. Solution Profile
-
+La solución propuesta por Agroflet consiste en una plataforma web dirigida a compañías que trabajan con mercancía perecible, dándoles la capacidad de auditar su stock, apuntar ingresos y salidas, vigilar las fechas de caducidad y agilizar la logística de reparto. Brindamos reportes continuos y opciones de seguimiento que apoyan las decisiones estratégicas, minimizando las mermas e incrementando la productividad.
 ### 1.2.1. Antecedentes y problemática
 
 ### 1.2.2. Lean UX Process
