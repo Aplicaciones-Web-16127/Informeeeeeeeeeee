@@ -99,15 +99,15 @@ Para estructurar de manera rigurosa la descripción de la problemática, el equi
 
 El equipo aplicó la versión *Brand new initiative* del template de Lean UX Problem Statement:
 
-*The current state of* ***agricultural food transportation logistics in Peru*** *has focused mainly on* ***informal operators who manage freight transport without digital tools, relying on verbal agreements, phone calls, and paper records, unable to provide real-time visibility on shipment location or status to producers, buyers, and logistics coordinators***.
+*The current state of* agricultural food transportation logistics in Peru *has focused mainly on* informal operators who manage freight transport without digital tools, relying on verbal agreements, phone calls, and paper records, unable to provide real-time visibility on shipment location or status to producers, buyers, and logistics coordinators.
 
-*What existing products/services fail to address is* ***an affordable, accessible, and sector-specific digital monitoring platform that consolidates fleet tracking, incident reporting, and shipment management in a single interface adapted to the operational reality of Peruvian agricultural transport actors***.
+*What existing products/services fail to address is* an affordable, accessible, and sector-specific digital monitoring platform that consolidates fleet tracking, incident reporting, and shipment management in a single interface adapted to the operational reality of Peruvian agricultural transport actors.
 
-*Our product/service will address this gap by* ***developing AgroFlet, a responsive web platform for near real-time monitoring and management of agricultural food transport operations, enabling users to track shipment location, consult delivery estimates, register and visualize route incidents, and access historical operation data — all from a single, intuitive dashboard***.
+*Our product/service will address this gap by* developing AgroFlet, a responsive web platform for near real-time monitoring and management of agricultural food transport operations, enabling users to track shipment location, consult delivery estimates, register and visualize route incidents, and access historical operation data — all from a single, intuitive dashboard.
 
-*Our initial focus will be* ***logistics coordinators and fleet managers of medium-sized agricultural transport companies operating on high-volume routes between Peru's producing regions and Lima Metropolitana, as well as wholesale buyers seeking visibility over incoming shipments***.
+*Our initial focus will be* logistics coordinators and fleet managers of medium-sized agricultural transport companies operating on high-volume routes between Peru's producing regions and Lima Metropolitana, as well as wholesale buyers seeking visibility over incoming shipments.
 
-*We’ll know we are successful when we see* ***at least 200 active users within the first 8 months, a monthly user retention rate above 70% starting from month 3, a 20% reduction in incident management times, and a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage***.
+*We’ll know we are successful when we see* at least 200 active users within the first 8 months, a monthly user retention rate above 70% starting from month 3, a 20% reduction in incident management times, and a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage.
 
 
 
