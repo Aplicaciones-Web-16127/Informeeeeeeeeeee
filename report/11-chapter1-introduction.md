@@ -89,6 +89,28 @@ Para estructurar de manera rigurosa la descripción de la problemática, el equi
     *   El tiempo promedio de retraso no gestionado en rutas de sierra-costa es de entre 4 y 8 horas por viaje, lo que equivale a una pérdida de frescura y calidad del producto (MIDAGRI, 2022).
     *   La incertidumbre en los tiempos de entrega obliga a los compradores a mantener inventarios de seguridad más elevados, incrementando sus costos operativos (Banco Mundial, 2021).
     *   Las empresas transportistas que no cuentan con registros de sus operaciones pierden oportunidades de negocio con clientes que exigen trazabilidad como condición de contratación (FAO, 2022).
+Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos orientados al negocio, al proceso de ingeniería y a la experiencia del usuario:
+
+##### 1.2.1.1. Objetivos del Proyecto
+Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos orientados al negocio, al proceso de ingeniería y a la experiencia del usuario:
+
+*   **Objetivo General:**
+    *   Diseñar, desarrollar e implementar un sistema web distribuido (compuesto por una aplicación de interfaz cliente responsive y un RESTful API de desarrollo interno) para la startup AgroFlet, que permita centralizar, monitorear y gestionar de forma transparente el transporte terrestre de alimentos en el Perú, contribuyendo de manera directa a la reducción de mermas postcosecha y a la eficiencia logística.
+*   **Objetivos Específicos:**
+    *   Desarrollar una aplicación frontend responsive que proporcione una experiencia de usuario altamente intuitiva e inclusiva, optimizada para los segmentos de medianos productores/acopiadores y compradores mayoristas.
+    *   Construir un RESTful API del lado del servidor robusto y de alto rendimiento que garantice la persistencia segura, la lógica de negocio y la consistencia en el procesamiento de operaciones y alertas logísticas.
+    *   Garantizar la cobertura del diseño inclusivo implementando atributos de accesibilidad ARIA e internacionalización (i18n) para soportar fluidamente los idiomas inglés y español latinoamericano.
+    *   Integrar de manera fluida un servicio geográfico de terceros que brinde soporte visual e interactivo al trayecto físico de las unidades de transporte sobre mapas digitales.
+    *   Alcanzar los criterios de éxito planteados en la visión de negocio: registrar al menos 200 usuarios activos en la plataforma en los primeros 8 meses, reducir en un 20 % los tiempos de gestión de incidencias en ruta, asegurar una tasa de retención superior al 70 % a partir del tercer mes de operación, y registrar un nivel de satisfacción (NPS) superior a los 40 puntos a los 3 meses de uso de la aplicación.
+
+##### 1.2.1.2. Restricciones del Proyecto
+El ciclo de vida de desarrollo de AgroFlet está sujeto a un conjunto de limitaciones tecnológicas, metodológicas y operativas impuestas para asegurar la calidad y los estándares de la ingeniería de software:
+
+*   **Restricciones Tecnológicas del Servidor:** El RESTful API del lado del servidor debe ser construido estrictamente con tecnologías open-source basadas en el lenguaje de programación C#, utilizando el framework ASP.NET Core y Entity Framework Core como mapeador objeto-relacional (ORM), persistiendo los datos obligatoriamente en un sistema de gestión de bases de datos relacionales (RDBMS) MySQL Server o PostgreSQL.
+*   **Restricciones Tecnológicas del Cliente:** La aplicación web frontend debe implementarse con el framework progresivo Vue, empleando JavaScript como lenguaje de programación. El diseño visual debe ceñirse al lenguaje de diseño Material Design utilizando PrimeVue como biblioteca de componentes de interfaz de usuario.
+*   **Restricciones de Integración y Documentación:** El sistema web distribuido debe consumir de manera obligatoria un servicio externo de mapas e integrarse mediante llamadas API RESTful documentadas técnicamente con OpenAPI Specification a través de Swagger.
+*   **Restricciones de Proceso y Calidad de Código:** El proyecto debe ser gestionado bajo el marco de trabajo ágil Scrum. El código fuente debe ser almacenado y administrado en repositorios dentro de una organización pública en GitHub, aplicando estrictamente el flujo de ramas GitFlow, la nomenclatura estandarizada en inglés para el código, mensajes de commit bajo la convención de Conventional Commits, y el versionamiento formal bajo Semantic Versioning (SemVer 2.0.0).
+*   **Restricciones de Idioma y Accesibilidad:** La interfaz de usuario, los mensajes del sistema y la documentación del API deben estar configurados en inglés por defecto, soportando internacionalización para español latinoamericano y cumpliendo con las pautas de accesibilidad web (a11y) mediante el uso correcto de atributos ARIA.
 
 
 ### 1.2.2. Lean UX Process
