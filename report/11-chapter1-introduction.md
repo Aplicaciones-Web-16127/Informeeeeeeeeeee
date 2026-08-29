@@ -219,8 +219,6 @@ En concordancia con el proceso Lean UX, el equipo formuló los siguientes hypoth
 
 #### 1.2.2.4. Lean UX Canvas
 
-###### 1.2.2.4. Lean UX Canvas
-
 El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del proceso Lean UX en un único artefacto visual colaborativo. A continuación, se presenta el canvas desarrollado por el equipo para el diseño y concepción de AgroFlet:
 
 | **1. Business Problem** | **2. Business Outcomes** | **3. Users & Customers** |
