@@ -234,7 +234,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 
 La identificación de los segmentos objetivo de AgroFlet parte del análisis de la problemática de la cadena logística terrestre, la viabilidad de validación con actores reales y la revisión de fuentes estadísticas oficiales del sector. Se han definido dos segmentos clave que interactúan directamente en la cadena de suministro agroalimentaria:
 
---------------------------------------------------------------------------------
+---
 
 **Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)**
 
@@ -263,8 +263,7 @@ Según el Ministerio de Agricultura y Riego (MIDAGRI, 2022), las unidades agríc
 *   Dificultad para demostrar ante el comprador final que un retraso o merma en el producto fue responsabilidad de incidencias viales en carretera y no de un mal manejo en origen.
 *   Pérdida de tiempo operativo llamando repetidamente a conductores que muchas veces no contestan el teléfono o transitan por zonas con cobertura intermitente.
 
---------------------------------------------------------------------------------
-
+---
 **Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento**
 
 **Descripción general:**  
