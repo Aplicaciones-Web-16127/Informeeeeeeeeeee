@@ -91,7 +91,7 @@ Para estructurar de manera rigurosa la descripción de la problemática, el equi
     *   Las empresas transportistas que no cuentan con registros de sus operaciones pierden oportunidades de negocio con clientes que exigen trazabilidad como condición de contratación (FAO, 2022).
 Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos orientados al negocio, al proceso de ingeniería y a la experiencia del usuario:
 
-##### 1.2.1.1. Objetivos del Proyecto
+#### 1.2.1.1. Objetivos del Proyecto
 Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos orientados al negocio, al proceso de ingeniería y a la experiencia del usuario:
 
 *   **Objetivo General:**
@@ -103,7 +103,7 @@ Para delimitar con precisión el alcance y el impacto del desarrollo del product
     *   Integrar de manera fluida un servicio geográfico de terceros que brinde soporte visual e interactivo al trayecto físico de las unidades de transporte sobre mapas digitales.
     *   Alcanzar los criterios de éxito planteados en la visión de negocio: registrar al menos 200 usuarios activos en la plataforma en los primeros 8 meses, reducir en un 20 % los tiempos de gestión de incidencias en ruta, asegurar una tasa de retención superior al 70 % a partir del tercer mes de operación, y registrar un nivel de satisfacción (NPS) superior a los 40 puntos a los 3 meses de uso de la aplicación.
 
-##### 1.2.1.2. Restricciones del Proyecto
+#### 1.2.1.2. Restricciones del Proyecto
 El ciclo de vida de desarrollo de AgroFlet está sujeto a un conjunto de limitaciones tecnológicas, metodológicas y operativas impuestas para asegurar la calidad y los estándares de la ingeniería de software:
 
 *   **Restricciones Tecnológicas del Servidor:** El RESTful API del lado del servidor debe ser construido estrictamente con tecnologías open-source basadas en el lenguaje de programación C#, utilizando el framework ASP.NET Core y Entity Framework Core como mapeador objeto-relacional (ORM), persistiendo los datos obligatoriamente en un sistema de gestión de bases de datos relacionales (RDBMS) MySQL Server o PostgreSQL.
