@@ -203,104 +203,13 @@ En concordancia con el proceso Lean UX, el equipo formuló los siguientes hypoth
 
 El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del proceso Lean UX en un único artefacto visual colaborativo. A continuación, se presenta el canvas desarrollado por el equipo para el diseño y concepción de AgroFlet:
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-
-### 1. Business Problem
-
-Los actores de la cadena de transporte de alimentos en el Perú —productores, transportistas y compradores— operan sin visibilidad digital sobre el estado y la ubicación de los envíos agrícolas durante el trayecto, lo que genera retrasos no gestionados, pérdidas económicas significativas y baja capacidad de respuesta ante incidencias en ruta.
-
-    </td>
-    <td width="34%" rowspan="2" valign="top">
-
-### 5. Solutions (Features)
-
-• Dashboard de monitoreo logístico en tiempo casi real.
-
-• Módulo de registro y visualización de incidencias en ruta.
-
-• Gestión de historial de operaciones con exportación de reportes.
-
-• Visualización geográfica de viajes activos sobre mapa interactivo.
-
-• Gestión interna de flotas, unidades y conductores asignados.
-
-• Sistema automatizado de alertas y notificaciones push en ruta.
-
-• Barra de búsqueda avanzada y multi-filtros de operaciones.
-
-    </td>
-    <td width="33%" valign="top">
-
-### 2. Business Outcomes
-
-• Registrar al menos **200 usuarios activos** en la plataforma en los primeros 8 meses.
-
-• Lograr una **reducción del 20 %** en los tiempos de gestión de incidencias en ruta.
-
-• Mantener una **tasa de retención mensual superior al 70 %** a partir del tercer mes de operación.
-
-• Alcanzar una satisfacción del usuario (**NPS) superior a los 40 puntos** tras 3 meses de uso de la plataforma.
-
-    </td>
-  </tr>
-
-  <tr>
-    <td valign="top">
-
-### 3. Users & Customers
-
-**Segmento 1: Transportista (Core)**
-
-• Coordinadores logísticos y gestores de flota de empresas de transporte agrícola de mediano tamaño (flotas de 5 a 50 unidades).
-
-**Segmento 2: Comprador**
-
-• Compradores mayoristas y encargados de abastecimiento en distribuidoras, mercados de abastos y cadenas de supermercados.
-
-    </td>
-    <td valign="top">
-
-### 4. User Benefits
-
-• **Visibilidad centralizada** y en tiempo casi real del estado y la ubicación de los fletes agrícolas.
-
-• Capacidad de **anticiparse a retrasos** y gestionar incidencias viales de forma proactiva.
-
-• Acceso a un **historial de operaciones** formalizado para auditoría de fletes y planificación comercial.
-
-• Incremento del profesionalismo, la transparencia y la competitividad en el mercado de fletes terrestres.
-
-    </td>
-  </tr>
-
-  <tr>
-    <td valign="top">
-
-### 6. Hypotheses
-
-*Debido a la extensión de los enunciados, las declaraciones detalladas de hipótesis del negocio se encuentran mapeadas y numeradas secuencialmente en la sección previa:*
-
-**Ver Sección 1.2.2.3. Lean UX Hypothesis Statements**
-
-    </td>
-    <td valign="top">
-
-### 7. What's the most important thing we need to learn first?
-
-Validar si los coordinadores logísticos del segmento transportista y los compradores mayoristas están dispuestos a adoptar y pagar por una plataforma digital de monitoreo viales, y cuáles son las funcionalidades que consideran críticas dentro de su flujo diario de trabajo.
-
-    </td>
-    <td valign="top">
-
-### 8. What's the least amount of work we need to do to learn the next most important thing?
-
-Construir un **prototipo interactivo de alta fidelidad** en Figma que simule el flujo de visualización del dashboard de monitoreo y el registro de incidencias en ruta. Con este artefacto, realizar entre **6 y 10 entrevistas de validación** con representantes reales de ambos segmentos para evaluar la propuesta de valor, la usabilidad percibida y la disposición de pago bajo un modelo de suscripción.
-
-    </td>
-  </tr>
-</table>
+| **1. Business Problem** | **2. Business Outcomes** | **3. Users & Customers** |
+| :--- | :--- | :--- |
+| Los actores de la cadena de transporte de alimentos en el Perú —productores, transportistas y compradores— operan sin visibilidad digital sobre el estado y la ubicación de los envíos agrícolas durante el trayecto, lo que genera retrasos no gestionados, pérdidas económicas significativas y baja capacidad de respuesta ante incidencias en ruta. | • Registrar al menos **200 usuarios activos** en la plataforma en los primeros 8 meses.<br><br>• Lograr una **reducción del 20 %** en los tiempos de gestión de incidencias en ruta.<br><br>• Mantener una **tasa de retención mensual superior al 70 %** a partir del tercer mes de operación.<br><br>• Alcanzar una satisfacción del usuario (**NPS) superior a los 40 puntos** tras 3 meses de uso de la plataforma. | **Segmento 1: Transportista (Core)**<br>• Coordinadores logísticos y gestores de flota de empresas de transporte agrícola de mediano tamaño (flotas de 5 a 50 unidades).<br><br>**Segmento 2: Comprador**<br>• Compradores mayoristas y encargados de abastecimiento en distribuidoras, mercados de abastos y cadenas de supermercados. |
+| **4. User Benefits** | **5. Solutions (Features)** | **6. Hypotheses** |
+| • **Visibilidad centralizada** y en tiempo casi real del estado y la ubicación de los fletes agrícolas.<br><br>• Capacidad de **anticiparse a retrasos** y gestionar incidencias viales de forma proactiva.<br><br>• Acceso a un **historial de operaciones** formalizado para auditoría de fletes y planificación comercial.<br><br>• Incremento del profesionalismo, la transparencia y la competitividad en el mercado de fletes terrestres. | • Dashboard de monitoreo logístico en tiempo casi real.<br><br>• Módulo de registro y visualización de incidencias en ruta.<br><br>• Gestión de historial de operaciones con exportación de reportes.<br><br>• Visualización geográfica de viajes activos sobre mapa interactivo.<br><br>• Gestión interna de flotas, unidades y conductores asignados.<br><br>• Sistema automatizado de alertas y notificaciones push en ruta.<br><br>• Barra de búsqueda avanzada y multi-filtros de operaciones. | *Debido a la extensión de los enunciados, las declaraciones detalladas de hipótesis del negocio se encuentran mapeadas y numeradas secuencialmente en la sección previa:*<br><br>**Ver Sección 1.2.2.3. Lean UX Hypothesis Statements** |
+| **7. What's the most important thing we need to learn first?** | **8. What's the least amount of work we need to do to learn the next most important thing?** | |
+| Validar si los coordinadores logísticos del segmento transportista y los compradores mayoristas están dispuestos a adoptar y pagar por una plataforma digital de monitoreo viales, y cuáles son las funcionalidades que consideran críticas dentro de su flujo diario de trabajo. | Construir un **prototipo interactivo de alta fidelidad** en Figma que simule el flujo de visualización del dashboard de monitoreo y el registro de incidencias en ruta. Con este artefacto, realizar entre **6 y 10 entrevistas de validación** con representantes reales de ambos segmentos para evaluar la propuesta de valor, la usabilidad percibida y la disposición de pago bajo un modelo de suscripción. | |
 
 
 ## 1.3. Segmentos objetivo
