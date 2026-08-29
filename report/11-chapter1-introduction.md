@@ -27,7 +27,9 @@ AgroFlet se posiciona inicialmente en el mercado peruano con foco en las princip
 | <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Tello Lima, Jose Alejandro - U202421618**<br>Soy estudiante de Ingeniería de Software. Aporto conocimientos en diseño de experiencias de usuario, interfaces web responsivas y mapeo de trayectorias utilizando herramientas como Figma y UXPressia, asegurando que la plataforma sea altamente intuitiva para el cliente. |
 
 ## 1.2. Solution Profile
-La solución propuesta por Agroflet consiste en una plataforma web dirigida a compañías que trabajan con mercancía perecible, dándoles la capacidad de auditar su stock, apuntar ingresos y salidas, vigilar las fechas de caducidad y agilizar la logística de reparto. Brindamos reportes continuos y opciones de seguimiento que apoyan las decisiones estratégicas, minimizando las mermas e incrementando la productividad.
+
+La solución propuesta por AgroFlet consiste en una plataforma web responsiva de monitoreo y gestión logística orientada a transformar la visibilidad, el control y la trazabilidad del transporte terrestre de alimentos y productos agrícolas perecibles en el Perú. Brindamos a los coordinadores logísticos, empresas de transporte y compradores mayoristas la capacidad de centralizar y registrar en tiempo casi real la información clave de cada viaje, incluyendo la ubicación de la unidad de carga, el tipo de alimento trasladado, los puntos de origen y destino, las horas de salida, las estimaciones de tiempo de entrega y el reporte de incidencias en ruta. A través de un dashboard intuitivo y simple, AgroFlet facilita la toma de decisiones estratégicas e informadas para mitigar las pérdidas postcosecha, reducir demoras no gestionadas y optimizar la coordinación de la cadena de suministro agroalimentaria a nivel nacional.
+
 ### 1.2.1. Antecedentes y problemática
 
 En esta sección se describen las características principales de la solución propuesta, así como su propuesta de valor y modelo de monetización.
