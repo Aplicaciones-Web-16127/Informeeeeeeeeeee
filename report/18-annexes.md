@@ -1,6 +1,10 @@
 # Anexos
 
-- Deloitte. (2023). *The future of supply chain: Digital logistics platforms in emerging markets*. Deloitte Insights. https://www2.deloitte.com/us/en/insights/industry/manufacturing/future-of-supply-chain.html
+- Banco Mundial. (2021). *Logistics Performance Index: International LPI 2023*. https://lpi.worldbank.org/
+
+- Centro Nacional de Planeamiento Estratégico. (2023). *Perú: Cadenas de valor agrícolas y pérdidas postcosecha*. https://www.ceplan.gob.pe/
+
+- Deloitte. (2023). *The future of supply chain: Digital logistics platforms in emerging markets*. https://www2.deloitte.com/us/en/insights/industry/manufacturing/future-of-supply-chain.html
 
 - Instituto Nacional de Estadística e Informática. (2023). *Producto Bruto Interno por sectores productivos: Serie histórica 2007-2023*. https://www.inei.gob.pe/
 
