@@ -113,42 +113,42 @@ El equipo aplicó la versión *Brand new initiative* del template de Lean UX Pro
 
 En concordancia con el proceso Lean UX, el equipo identificó los siguientes supuestos (*assumptions*) agrupados por tipo:
 
-** Business Assumptions **
+**Business Assumptions**
 1. Creemos que existe un mercado suficientemente grande de empresas de transporte agrícola y compradores mayoristas en el Perú que están dispuestos a adoptar una plataforma digital de monitoreo logístico, dado el impacto económico de la falta de visibilidad en sus operaciones.
 2. Creemos que un modelo de negocio basado en suscripción mensual por rango de flota (número de unidades registradas) es viable y aceptable para el segmento de medianas empresas de transporte agrícola en el Perú.
 3. Creemos que AgroFlet puede diferenciarse de las soluciones ERP logísticas existentes por su enfoque sectorial, su accesibilidad de precio y su diseño orientado a usuarios con distintos niveles de alfabetización digital.
 4. Creemos que la integración con un servicio externo de geolocalización (como Google Maps Platform o HERE Maps) es técnicamente factible dentro del alcance del proyecto y agrega valor significativo a la experiencia del usuario.
 5. Creemos que el equipo de desarrollo cuenta con las competencias técnicas para desarrollar, desplegar y mantener la plataforma utilizando Vue.js (frontend), ASP.NET Core (backend) y MySQL (base de datos relacional) dentro del ciclo académico.
 
-** Business Outcome Assumptions **
+**Business Outcome Assumptions**
 1. Creemos que, al cabo de 8 meses desde el lanzamiento, AgroFlet habrá registrado al menos 200 empresas o usuarios activos en la plataforma.
 2. Creemos que la tasa de retención mensual de usuarios activos superará el 70 % a partir del tercer mes de operación, como indicador de la generación de valor percibido.
 3. Creemos que la plataforma contribuirá a reducir el tiempo promedio de respuesta ante incidencias en ruta en al menos un 20 % para los usuarios que la adopten.
 4. Creemos que la generación de historial de operaciones dentro de la plataforma se convertirá en un activo de valor para los usuarios, incentivando la renovación de la suscripción.
 5. Creemos que la publicación de reseñas y recomendaciones de usuarios tempranos (*early adopters*) contribuirá a un crecimiento orgánico de la base de usuarios a través de referencias en el sector.
 
-** User Assumptions **
+**User Assumptions**
 1. Creemos que nuestros usuarios principales son coordinadores logísticos y gestores de flota de empresas de transporte agrícola de mediano tamaño (entre 5 y 50 unidades de transporte), con edades entre 28 y 55 años, que operan desde oficinas en Lima o en capitales de región.
 2. Creemos que un segundo segmento relevante son los compradores mayoristas (jefes de compras o encargados de abastecimiento) de empresas distribuidoras, mercados de abastos o cadenas de supermercados, que reciben envíos agrícolas de forma regular.
 3. Creemos que ambos segmentos utilizan principalmente smartphones Android de gama media y computadoras de escritorio con Windows para sus actividades laborales diarias.
 4. Creemos que los usuarios del segmento transportista tienen experiencia básica con aplicaciones de mensajería (WhatsApp) y navegación web, pero no con plataformas de gestión empresarial (ERP o CRM).
 5. Creemos que los usuarios del segmento comprador tienen mayor familiaridad con herramientas digitales de oficina (hojas de cálculo, correo electrónico) y están acostumbrados a la consulta de información en dashboards.
 
-** User Outcome and Benefit Assumptions **
-1. Creemos que los coordinadores logísticos quieren **reducir el tiempo que dedican a gestionar incidencias por teléfono** y obtener visibilidad centralizada sobre el estado de sus flotas sin depender de llamadas frecuentes a los conductores.
-2. Creemos que los gestores de flota quieren **poder asignar y monitorear viajes de forma más ordenada**, con un historial que les permita evaluar el desempeño de sus unidades y conductores.
-3. Creemos que los compradores mayoristas quieren **conocer con anticipación la hora estimada de llegada de sus envíos** para coordinar la recepción del producto, optimizar el uso de sus espacios de almacenamiento y reducir el tiempo de espera de su personal.
-4. Creemos que ambos segmentos valoran **la posibilidad de registrar y consultar incidencias de ruta** (bloqueos, averías, retrasos) como un mecanismo de *accountability* que les permite justificar retrasos ante sus clientes o proveedores.
-5. Creemos que los usuarios del segmento transportista considerarán que la plataforma **agrega valor diferencial** si les permite demostrar a sus clientes un nivel de servicio más profesional y transparente, incrementando así su competitividad en el mercado.
+**User Outcome and Benefit Assumptions**
+1. Creemos que los coordinadores logísticos quieren reducir el tiempo que dedican a gestionar incidencias por teléfono y obtener visibilidad centralizada sobre el estado de sus flotas sin depender de llamadas frecuentes a los conductores.
+2. Creemos que los gestores de flota quieren poder asignar y monitorear viajes de forma más ordenada, con un historial que les permita evaluar el desempeño de sus unidades y conductores.
+3. Creemos que los compradores mayoristas quieren conocer con anticipación la hora estimada de llegada de sus envíos para coordinar la recepción del producto, optimizar el uso de sus espacios de almacenamiento y reducir el tiempo de espera de su personal.
+4. Creemos que ambos segmentos valoran la posibilidad de registrar y consultar incidencias de ruta (bloqueos, averías, retrasos) como un mecanismo de *accountability* que les permite justificar retrasos ante sus clientes o proveedores.
+5. Creemos que los usuarios del segmento transportista considerarán que la plataforma agrega valor diferencial si les permite demostrar a sus clientes un nivel de servicio más profesional y transparente, incrementando así su competitividad en el mercado.
 
-** Feature Assumptions **
-1. Creemos que un **dashboard de monitoreo en tiempo casi real** que muestre la ubicación actual, el estado y los datos principales de cada operación de transporte activa es la funcionalidad de mayor valor percibido para ambos segmentos.
-2. Creemos que el **registro y visualización de incidencias en ruta** (tipo, descripción, impacto estimado en el tiempo de entrega) es una funcionalidad crítica que diferencia a AgroFlet de soluciones genéricas de rastreo GPS.
-3. Creemos que la **gestión del historial de operaciones** (filtrado por fecha, ruta, tipo de alimento, unidad de transporte y estado) es una funcionalidad de alto valor para los usuarios con necesidad de *reporting* y planificación.
-4. Creemos que la **visualización geográfica de rutas activas** sobre un mapa interactivo, integrado con un servicio externo de mapas, incrementará significativamente la usabilidad y adopción de la plataforma.
-5. Creemos que la **gestión de flotas y conductores** (registro de unidades, asignación de conductores, consulta de disponibilidad) es una funcionalidad necesaria para el segmento de coordinadores logísticos de empresas de transporte.
-6. Creemos que el **envío de alertas y notificaciones** ante incidencias registradas o retrasos detectados incrementará el valor percibido de la plataforma y la frecuencia de uso diario.
-7. Creemos que un **sistema de filtros y búsqueda avanzada** sobre el listado de operaciones facilita la consulta de información por parte de usuarios con alto volumen de operaciones registradas.
+**Feature Assumptions**
+1. Creemos que un dashboard de monitoreo en tiempo casi real que muestre la ubicación actual, el estado y los datos principales de cada operación de transporte activa es la funcionalidad de mayor valor percibido para ambos segmentos.
+2. Creemos que el registro y visualización de incidencias en ruta (tipo, descripción, impacto estimado en el tiempo de entrega) es una funcionalidad crítica que diferencia a AgroFlet de soluciones genéricas de rastreo GPS.
+3. Creemos que la gestión del historial de operaciones (filtrado por fecha, ruta, tipo de alimento, unidad de transporte y estado) es una funcionalidad de alto valor para los usuarios con necesidad de *reporting* y planificación.
+4. Creemos que la visualización geográfica de rutas activas sobre un mapa interactivo, integrado con un servicio externo de mapas, incrementará significativamente la usabilidad y adopción de la plataforma.
+5. Creemos que la gestión de flotas y conductores (registro de unidades, asignación de conductores, consulta de disponibilidad) es una funcionalidad necesaria para el segmento de coordinadores logísticos de empresas de transporte.
+6. Creemos que el envío de alertas y notificaciones ante incidencias registradas o retrasos detectados incrementará el valor percibido de la plataforma y la frecuencia de uso diario.
+7. Creemos que un sistema de filtros y búsqueda avanzada sobre el listado de operaciones facilita la consulta de información por parte de usuarios con alto volumen de operaciones registradas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
