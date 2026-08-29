@@ -152,6 +152,50 @@ En concordancia con el proceso Lean UX, el equipo identificó los siguientes sup
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+En concordancia con el proceso Lean UX, el equipo formuló los siguientes hypothesis statements, uno por cada feature assumption identificada:
+
+**Hypothesis Statement 1**
+**We believe we will achieve** an active adoption of at least 200 users within the first 8 months 
+**If** logistics coordinators and fleet managers 
+**Attain** centralized, near real-time visibility over active fleet locations and shipment status without depending on constant phone calls 
+**With** a near real-time monitoring dashboard displaying live location, status, and shipment details of active transport operations.
+
+**Hypothesis Statement 2**
+**We believe we will achieve** a 20% reduction in incident management times
+**If** logistics coordinators and wholesale buyers
+**Attain** the ability to immediately report and visualize road incidents (such as delays, breakdowns, or roadblocks) and estimate delivery impact
+**With** an incident reporting and visual tracking system directly integrated on the route details page.
+
+**Hypothesis Statement 3**
+**We believe we will achieve** a monthly user retention rate above 70% starting from month 3
+**If** fleet managers
+**Attain** a reliable historical record of past shipments to audit performance, analyze recurring routes, and optimize logistics planning
+**With** an operation history management module with advanced search, filtering, and exportable logs.
+
+**Hypothesis Statement 4**
+**We believe we will achieve** a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage
+**If** logistics coordinators and wholesale buyers
+**Attain** an intuitive and highly visual way to track shipment progress along national highway corridors 
+**With** an interactive map interface integrated with an external geolocation service.
+
+**Hypothesis Statement 5**
+**We believe we will achieve** a monthly user retention rate above 70% starting from month 3
+**If* **logistics coordinators** 
+**Attain* **an orderly mechanism to register trucks, assign available drivers, and organize dispatch workflows** 
+**With* **a fleet and driver management module with status indicators and simplified registry forms.**
+
+**Hypothesis Statement 6**
+**We believe we will achieve** **a 20% reduction in incident management times** 
+**If** **logistics coordinators and wholesale buyers** 
+**Attain** **instant awareness of critical delays, breakdowns, or road blockages to execute contingency plans immediately** 
+**With** **an automated system of push alerts and in-app notifications triggered upon incident registration.**
+
+**Hypothesis Statement 7**
+**We believe we will achieve** a Net Promoter Score (NPS) exceeding 40 points after 3 months of platform usage
+**If** logistics coordinators with high daily operational volumes
+**Attain** the ability to find specific shipments, drivers, or routes within seconds, minimizing search fatigue
+**With** an advanced search bar and multi-criteria filters on the active shipments dashboard.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
