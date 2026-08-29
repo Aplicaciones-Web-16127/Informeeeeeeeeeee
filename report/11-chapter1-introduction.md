@@ -36,6 +36,52 @@ En esta sección se describen las características principales de la solución p
 
 AgroFlet es una plataforma web de monitoreo y gestión logística orientada a transformar la visibilidad, el control y la trazabilidad del transporte terrestre de alimentos y productos agrícolas perecibles en el Perú. La herramienta permite centralizar y registrar en tiempo casi real la información clave de cada viaje, incluyendo la ubicación de la unidad de carga, el tipo de alimento trasladado, los puntos de origen y destino, las horas de salida, las fechas estimadas de llegada y las incidencias que afecten la ruta.
 
+Para estructurar de manera rigurosa la descripción de la problemática, el equipo aplicó la técnica de análisis 5W's + 2H's:
+
+*   **Who (¿Quiénes son los afectados?)**
+    Los principales actores afectados por la problemática son:
+    *   **Productores agrícolas y cooperativas:** Agricultores individuales o asociados que despachan sus productos desde zonas de producción (Ayacucho, Junín, La Libertad, Puno, entre otras) hacia mercados mayoristas y minoristas, principalmente en Lima Metropolitana. Según el Ministerio de Agricultura y Riego (MIDAGRI, 2022), el 78 % de las unidades agropecuarias en el Perú tienen menos de 5 hectáreas, lo que evidencia el perfil predominantemente pequeño y mediano del productor peruano.
+    *   **Empresas y operadores de transporte terrestre:** Transportistas formales e informales que prestan el servicio de flete agrícola. Según el Ministerio de Transportes y Comunicaciones (MTC, 2022), existen más de 80,000 unidades de carga habilitadas para el transporte terrestre de mercancías en el Perú, de las cuales una proporción significativa opera sin herramientas digitales de gestión.
+    *   **Compradores mayoristas y empresas distribuidoras:** Intermediarios que adquieren la producción agrícola para su distribución en mercados de abastos, supermercados y cadenas de restaurantes. La incertidumbre sobre los tiempos de llegada les impide planificar adecuadamente sus operaciones.
+    *   **Gestores logísticos y coordinadores de flota:** Responsables de la coordinación de múltiples unidades de transporte que carecen de herramientas unificadas para el monitoreo simultáneo de operaciones.
+
+*   **What (¿Cuál es el problema?)**
+    El problema central es la **ausencia de visibilidad en tiempo casi real** sobre el estado y la ubicación de las unidades de transporte de alimentos durante su recorrido. Esta opacidad informacional genera:
+    *   Incapacidad de anticipar retrasos o incidencias en ruta.
+    *   Dificultad para coordinar la recepción del producto en destino.
+    *   Pérdida de control sobre las condiciones del transporte, lo que puede derivar en deterioro de la carga.
+    *   Incapacidad de generar registros históricos confiables sobre las operaciones, impidiendo la mejora continua del proceso logístico.
+
+*   **Where (¿Dónde ocurre el problema?)**
+    El problema ocurre en las rutas de transporte terrestre de alcance nacional, con especial incidencia en los corredores viales que conectan las principales regiones productoras de alimentos con los centros de distribución y consumo. Los corredores más críticos incluyen:
+    *   Ayacucho → Lima (papa, quinua, maíz)
+    *   Junín → Lima (café, cítricos, papa)
+    *   La Libertad → Lima (espárragos, palta, arándanos)
+    *   Puno → Arequipa y Lima (quinua, cañihua, papa nativa)
+    *   Cusco → Lima y Arequipa (maíz, papa, kiwicha)
+    
+    Estas rutas concentran un alto volumen de carga agrícola y presentan tramos de difícil acceso geográfico que incrementan el riesgo de incidencias durante el trayecto (MTC, 2022).
+
+*   **When (¿Cuándo ocurre el problema?)**
+    El problema es **continuo y estructural**, presente durante las 24 horas del día y los 7 días de la semana en cada operación de transporte. Se agudiza en periodos de alta demanda logística, como las campañas agrícolas de cosecha (enero-marzo y julio-septiembre), en los que el volumen de transporte se incrementa significativamente y la coordinación se vuelve más crítica (MIDAGRI, 2022).
+
+*   **Why (¿Por qué ocurre el problema?)**
+    Las causas raíz del problema pueden clasificarse en tres niveles:
+    1.  **Causas tecnológicas:** La mayoría de los operadores de transporte agrícola no cuenta con sistemas de rastreo GPS integrados ni con plataformas digitales de gestión de flotas. La penetración de soluciones *fleet management* en el sector es inferior al 15 % (MTC, 2022).
+    2.  **Causas organizacionales:** La alta informalidad del sector (se estima que más del 40 % de los transportistas de carga agrícola opera sin habilitación formal vigente) dificulta la adopción de estándares tecnológicos (Ministerio de Trabajo y Promoción del Empleo [MTPE], 2023).
+    3.  **Causas económicas:** El costo percibido de las soluciones tecnológicas existentes es elevado para el perfil de pequeño y mediano transportista, que opera con márgenes ajustados. Las soluciones disponibles en el mercado (como los sistemas ERP logísticos de gran escala) no están diseñadas para este segmento.
+
+*   **How (¿Cómo ocurre el problema?)**
+    En la práctica, el proceso logístico de transporte de alimentos funciona de la siguiente manera: el productor o acopiador contrata verbalmente a un transportista, acuerdan el precio del flete y la fecha de salida, y el seguimiento del envío se realiza exclusivamente mediante llamadas telefónicas al conductor. Si ocurre una incidencia —avería mecánica, bloqueo de vía, accidente— la comunicación depende de que el conductor tenga señal telefónica y decida informar a la contraparte. No existe registro formal de la operación, ni trazabilidad del recorrido, ni mecanismo de alerta temprana. El comprador en destino tampoco tiene visibilidad sobre el estado del envío y solo puede estimar tiempos de llegada con base en experiencias previas o comunicaciones informales.
+
+*   **How Much (¿Cuánto impacta el problema?)**
+    El impacto económico de la problemática es considerable:
+    *   Las pérdidas postcosecha asociadas a deficiencias logísticas en el Perú ascienden a más de S/ 2,000 millones anuales (CEPLAN, 2023).
+    *   El tiempo promedio de retraso no gestionado en rutas de sierra-costa es de entre 4 y 8 horas por viaje, lo que equivale a una pérdida de frescura y calidad del producto (MIDAGRI, 2022).
+    *   La incertidumbre en los tiempos de entrega obliga a los compradores a mantener inventarios de seguridad más elevados, incrementando sus costos operativos (Banco Mundial, 2021).
+    *   Las empresas transportistas que no cuentan con registros de sus operaciones pierden oportunidades de negocio con clientes que exigen trazabilidad como condición de contratación (FAO, 2022).
+
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
