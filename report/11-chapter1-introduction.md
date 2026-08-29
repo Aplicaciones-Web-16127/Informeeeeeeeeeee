@@ -110,7 +110,9 @@ El ciclo de vida de desarrollo de AgroFlet está sujeto a un conjunto de limitac
 *   **Restricciones Tecnológicas del Cliente:** La aplicación web frontend debe implementarse con el framework progresivo Vue, empleando JavaScript como lenguaje de programación. El diseño visual debe ceñirse al lenguaje de diseño Material Design utilizando PrimeVue como biblioteca de componentes de interfaz de usuario.
 *   **Restricciones de Integración y Documentación:** El sistema web distribuido debe consumir de manera obligatoria un servicio externo de mapas e integrarse mediante llamadas API RESTful documentadas técnicamente con OpenAPI Specification a través de Swagger.
 *   **Restricciones de Proceso y Calidad de Código:** El proyecto debe ser gestionado bajo el marco de trabajo ágil Scrum. El código fuente debe ser almacenado y administrado en repositorios dentro de una organización pública en GitHub, aplicando estrictamente el flujo de ramas GitFlow, la nomenclatura estandarizada en inglés para el código, mensajes de commit bajo la convención de Conventional Commits, y el versionamiento formal bajo Semantic Versioning (SemVer 2.0.0).
-*   **Restricciones de Idioma y Accesibilidad:** La interfaz de usuario, los mensajes del sistema y la documentación del API deben estar configurados en inglés por defecto, soportando internacionalización para español latinoamericano y cumpliendo con las pautas de accesibilidad web (a11y) mediante el uso correcto de atributos ARIA.
+*   **Restricciones de Idioma y Accesibilidad:** AgroFlet está diseñado y dirigido de manera prioritaria para el entorno agrícola y logístico peruano, por lo cual la plataforma se concibe de forma nativa en **español** para asegurar una usabilidad óptima y libre de fricciones para los agricultores y transportistas locales. No obstante, para alinearse con las directrices de ingeniería globales y cumplir estrictamente con los requisitos de acreditación ABET del curso, el sistema web distribuido se desarrollará utilizando un marco de **internacionalización (i18n)**. Esto permitirá que la interfaz de usuario, los mensajes del sistema y la documentación del API cuenten con soporte técnico en **inglés** y **español**, configurando el idioma de manera fluida según la preferencia del usuario. Asimismo, se implementarán **atributos ARIA** para asegurar la accesibilidad web (**a11y**).
+
+
 
 
 ### 1.2.2. Lean UX Process
@@ -232,63 +234,58 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 
 ## 1.3. Segmentos objetivo
 
-La identificación de los segmentos objetivo de AgroFlet parte del análisis de la problemática de la cadena logística terrestre, la viabilidad de validación con actores reales y la revisión de fuentes estadísticas oficiales del sector. Se han definido dos segmentos clave que interactúan directamente en la cadena de suministro agroalimentaria:
+La identificación de los segmentos objetivo de AgroFlet parte del análisis de la problemática de la cadena logística terrestre, la viabilidad de validación con actores reales y la revisión de fuentes estadísticas oficiales del sector [7]. Se han definido dos segmentos clave que interactúan directamente en la cadena de suministro agroalimentaria [7]:
 
 ---
 
-**Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)**
+### Segmento 1: Medianos Productores Agrícolas y Acopiadores (Despachadores)
 
 **Descripción general:**  
-Este segmento está constituido por agricultores medianos independientes, representantes de cooperativas agrícolas y acopiadores locales que se encargan de consolidar la carga agrícola en las zonas de producción para despacharla hacia los principales mercados de consumo. Son los cargadores (*shippers*) de la cadena logística, responsables de contratar los servicios de flete terrestre. Su principal dolor es la pérdida de visibilidad y el riesgo de deterioro de los alimentos perecibles una vez que la unidad de transporte sale del centro de acopio con rumbo a su destino nacional.
+Este segmento está constituido por agricultores medianos independientes, representantes de cooperativas agrícolas y acopiadores locales que se encargan de consolidar la carga agrícola en las zonas de producción para despacharla hacia los principales mercados de consumo [8]. Son los cargadores (*shippers*) de la cadena logística, responsables de contratar los servicios de flete terrestre [8]. Su principal dolor es la pérdida de visibilidad y el riesgo de deterioro de los alimentos perecibles una vez que la unidad de transporte sale del centro de acopio con rumbo a su destino nacional [8].
 
-**Características demográficas:**
-*   **Edad:** Entre 25 y 60 años.
-*   **Género:** Mixto (con una participación de liderazgo femenino del 30 % en juntas de cooperativas agrarias).
-*   **Ubicación geográfica:** Ubicados en zonas de producción agrícola con alta conectividad comercial hacia Lima Metropolitana, por ejemplo, Junín, Huánuco, Ica, La Libertad, Cañete y Huaral.
-*   **Nivel educativo:** Educación secundaria completa, educación técnica o superior universitaria en Agronomía, Administración de Negocios o carreras afines.
-*   **Experiencia laboral:** Más de 5 años en la gestión de cultivos, acopio y comercialización agrícola.
+**Características demográficas y estadísticas integradas:**  
+*   **Edad:** Entre 25 y 60 años [9].
+*   **Género:** Mixto, con una participación destacada de liderazgo femenino del **30 % en las juntas de cooperativas agrarias** [9].
+*   **Ubicación geográfica:** Ubicados en zonas de producción agrícola con alta conectividad comercial hacia Lima Metropolitana, tales como Junín, Huánuco, Ica, La Libertad, Cañete y Huaral [9]. Estas regiones forman parte de la base productiva del país, donde la actividad agropecuaria representa aproximadamente el **6 % del Producto Bruto Interno (PBI) nacional** y ocupa a más del **28 % de la Población Económicamente Activa (PEA) rural** [1].
+*   **Nivel educativo y perfil organizacional:** Educación secundaria completa, técnica o superior universitaria en Agronomía, Administración de Negocios o carreras afines [9]. Se organizan habitualmente bajo esquemas de cooperativas de acopio para mejorar su poder de negociación frente a intermediarios, representando un sector clave en el Perú donde el **78 % de las unidades agropecuarias poseen menos de 5 hectáreas** [3].
+*   **Experiencia laboral y volumen de mermas asociadas:** Más de 5 años en la gestión de cultivos, acopio y comercialización agrícola [9]. Operan en un entorno altamente crítico donde aproximadamente el **35 % de la producción agrícola peruana se pierde** entre la cosecha y el punto de venta debido a ineficiencias de transporte [3], lo que genera un impacto económico directo acumulado para los productores que supera los **S/ 2,000 millones anuales** [3].
 
-**Características psicográficas y conductuales:**
-*   **Presión por mermas:** Experimentan un alto nivel de estrés debido a la volatilidad de los precios en el mercado mayorista y el riesgo de que la carga sufra retrasos prolongados en carretera.
-*   **Coordinación informal:** Dependen casi exclusivamente de llamadas de voz y mensajes de WhatsApp con los transportistas independientes para intentar conocer el estado de sus despachos.
-*   **Tecnología:** Utilizan smartphones Android de gama media con acceso a planes de datos móviles y aplicaciones de mensajería, además de computadoras portátiles para coordinar la facturación y guías de remisión.
-*   **Disposición tecnológica:** Alta receptividad a adoptar herramientas de bajo costo que demuestren reducir las pérdidas de alimentos y mejoren la transparencia con sus clientes.
+**Características psicográficas y conductuales:**  
+*   **Presión por mermas:** Experimentan un alto nivel de estrés debido a la volatilidad de los precios en el mercado mayorista y el riesgo latente de que la carga sufra retrasos prolongados en carretera [10].
+*   **Coordinación informal:** Dependen casi exclusivamente de llamadas de voz y mensajes de WhatsApp con transportistas independientes para conocer el estado de sus despachos [10], enfrentándose a que más del **70 % del transporte de carga agrícola opere sin trazabilidad digital** [1].
+*   **Tecnología:** Utilizan smartphones Android de gama media con acceso a planes de datos móviles y aplicaciones de mensajería, además de computadoras portátiles para coordinar la facturación y guías de remisión [10].
+*   **Disposición tecnológica:** Alta receptividad a adoptar herramientas de bajo costo que demuestren reducir las pérdidas de alimentos y mejoren la transparencia con sus clientes [10].
 
-**Información estadística de sustento:**  
-Según el Ministerio de Agricultura y Riego (MIDAGRI, 2022), las unidades agrícolas de tamaño pequeño y mediano representan la base de la seguridad alimentaria en el Perú, donde el 78 % de las unidades agropecuarias a nivel nacional poseen menos de 5 hectáreas, organizándose habitualmente bajo esquemas de cooperativas de acopio para mejorar su poder de negociación. La ineficiencia y falta de digitalización en el transporte genera que aproximadamente el 35 % de la producción agrícola peruana sufra pérdidas postcosecha entre el campo y el consumidor, concentrándose una fracción crítica de este porcentaje en los retrasos y falta de comunicación durante el transporte terrestre (INEI, 2022). Esto representa un impacto económico directo para los productores que supera los S/ 2,000 millones anuales (Centro Nacional de Planeamiento Estratégico [CEPLAN], 2023).
-
-**Puntos de dolor (Pain Points):**
-*   Incertidumbre absoluta sobre la ubicación física del camión que traslada sus productos agrícolas perecibles.
-*   Falta de mecanismos de alerta temprana para enterarse de incidencias viales (bloqueos, accidentes o fallas mecánicas) y poder desviar la carga o negociar prórrogas.
-*   Dificultad para demostrar ante el comprador final que un retraso o merma en el producto fue responsabilidad de incidencias viales en carretera y no de un mal manejo en origen.
-*   Pérdida de tiempo operativo llamando repetidamente a conductores que muchas veces no contestan el teléfono o transitan por zonas con cobertura intermitente.
+**Puntos de dolor (Pain Points):**  
+*   Incertidumbre absoluta sobre la ubicación física del camión que traslada sus productos agrícolas perecibles [11].
+*   Falta de mecanismos de alerta temprana para enterarse de incidencias viales (bloqueos, accidentes o fallas mecánicas) y poder desviar la carga o negociar prórrogas [11].
+*   Dificultad para demostrar ante el comprador final que un retraso o merma en el producto fue responsabilidad de incidencias viales en carretera y no de un mal manejo en origen [11].
+*   Pérdida de tiempo operativo llamando repetidamente a conductores que muchas veces no contestan el teléfono o transitan por zonas con cobertura intermitente [11].
 
 ---
-**Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento**
+
+### Segmento 2: Compradores Mayoristas y Encargados de Abastecimiento
 
 **Descripción general:**  
-Este segmento agrupa a los actores que reciben los envíos de alimentos agrícolas en los centros de distribución, mercados de abastos o plataformas de supermercados. Pueden ser jefes de compras, encargados de abastecimiento, gerentes de logística de entrada o propietarios de puestos en mercados mayoristas. Su principal necesidad es contar con información anticipada y de confianza sobre la hora de llegada de los envíos para coordinar la recepción del producto, optimizar el uso de su personal y sus espacios de almacenamiento, y garantizar la continuidad de su cadena de suministro.
+Este segmento agrupa a los actores que reciben los envíos de alimentos agrícolas en los centros de distribución, mercados de abastos o plataformas de supermercados [12]. Pueden ser jefes de compras, encargados de abastecimiento, gerentes de logística de entrada o propietarios de puestos en mercados mayoristas [12]. Su principal necesidad es contar con información anticipada y de confianza sobre la hora de llegada de los envíos para coordinar la recepción del producto, optimizar el uso de su personal y sus espacios de almacenamiento, y garantizar la continuidad de su cadena de suministro [12].
 
-**Características demográficas:**
-*   **Edad:** Entre 30 y 60 años.
-*   **Género:** Mixto, con representación equitativa según el contexto (mercados de abastos con predominio masculino; cadenas de supermercados con mayor participación femenina en roles de compras).
-*   **Ubicación geográfica:** Principalmente Lima Metropolitana (Mercado Mayorista de Lima, Makro, supermercados) y capitales de región con mercados de abastos de alta actividad.
-*   **Nivel educativo:** Variable: desde educación secundaria completa (comerciantes de mercados de abastos) hasta educación superior universitaria o de posgrado (gerentes de compras de cadenas formales).
-*   **Volumen de operaciones:** Entre 2 y 30 envíos recibidos por semana, dependiendo del tamaño del negocio.
+**Características demográficas y estadísticas integradas:**  
+*   **Edad:** Entre 30 y 60 años [13].
+*   **Género:** Mixto, con representación equitativa según el contexto (mercados de abastos con predominio masculino; cadenas de supermercados con mayor participación femenina en roles de compras) [13].
+*   **Ubicación geográfica y alcance de mercado:** Principalmente Lima Metropolitana (que concentra la mayor distribución del país) y capitales de región con mercados de abastos de alta actividad [13]. En Lima Metropolitana, operan en un entorno que alberga más de **1,200 mercados de abastos**, donde los 4 mercados mayoristas principales manejan un volumen diario masivo de más de **8,000 toneladas de alimentos** [4].
+*   **Nivel educativo y tipología de negocio:** Variable, abarcando desde educación secundaria completa (comerciantes independientes de mercados de abastos) hasta educación superior universitaria o de posgrado (gerentes de compras de cadenas formales de supermercados) [13].
+*   **Volumen de operaciones y participación comercial:** Entre **2 y 30 envíos recibidos por semana**, dependiendo del tamaño del negocio [13]. En el canal moderno, las cadenas de supermercados (Wong, Plaza Vea, Tottus, Metro) representan una participación del **35 % del gasto en alimentos** de los hogares limeños de nivel socioeconómico medio y alto [4], lo que exige un estándar logístico de alta trazabilidad y confiabilidad [4].
 
-**Características psicográficas y conductuales:**
-*   **Sensibilidad al tiempo:** Alta sensibilidad a la puntualidad de las entregas, especialmente en productos perecibles donde el retraso impacta directamente en la calidad del producto recibido.
-*   **Frustración operativa:** Frustración frecuente ante la falta de información proactiva de los transportistas sobre retrasos o incidencias.
-*   **Tecnología:** Mayor familiaridad con herramientas digitales de oficina (hojas de cálculo, correo electrónico) que el segmento transportista.
-*   **Disposición tecnológica:** Receptividad a adoptar herramientas que reduzcan la incertidumbre en su cadena de abastecimiento. En el caso de compradores formales (supermercados, distribuidoras), exigencia creciente de trazabilidad como requisito contractual para sus proveedores logísticos.
+**Características psicográficas y conductuales:**  
+*   **Sensibilidad al tiempo:** Alta sensibilidad a la puntualidad de las entregas, ya que el retraso en productos perecibles impacta de manera directa en la frescura y calidad final del producto recibido [14].
+*   **Frustración operativa:** Frustración frecuente ante la falta de información proactiva de los transportistas sobre retrasos o incidencias en carretera [14].
+*   **Tecnología:** Mayor familiaridad con herramientas digitales de oficina (hojas de cálculo, correo electrónico) que el promedio del segmento transportista [14].
+*   **Disposición tecnológica:** Receptividad a adoptar herramientas que reduzcan la incertidumbre en su cadena de abastecimiento [14]. En el caso de compradores formales (supermercados y distribuidoras), existe una exigencia creciente de trazabilidad como requisito contractual obligatorio para sus proveedores logísticos [14].
 
-**Información estadística de sustento:**  
-Lima Metropolitana concentra el mayor mercado de distribución de alimentos del Perú. Según el INEI (2022), la capital alberga más de 1,200 mercados de abastos, de los cuales los 4 mercados mayoristas principales (Gran Mercado Mayorista de Lima, La Parada histórica, Frutas y Huanchaqueños) manejan un volumen diario de más de 8,000 toneladas de alimentos. Adicionalmente, las cadenas de supermercados (Wong, Plaza Vea, Tottus, Metro) han incrementado su participación en el mercado de distribución de alimentos al 35 % del gasto en alimentos de los hogares limeños de nivel socioeconómico medio y alto (Euromonitor International, 2023). Este escenario genera una demanda creciente de servicios logísticos con mayor nivel de trazabilidad y confiabilidad, que AgroFlet puede satisfacer.
-
-**Puntos de dolor (Pain Points):**
-*   Incertidumbre sobre la hora de llegada de los envíos, lo que obliga a mantener personal de recepción en espera durante periodos prolongados.
-*   Imposibilidad de anticipar retrasos que puedan generar desabastecimiento o pérdida de frescura del producto.
-*   Falta de un canal formal para recibir información sobre incidencias en ruta de parte del transportista.
-*   Dificultad para evaluar el desempeño de sus proveedores de transporte al carecer de registros históricos de cumplimiento.
-*   En el caso de compradores formales, presión creciente de sus propias cadenas de auditoría interna para documentar la trazabilidad de su cadena de suministro.
+**Puntos de dolor (Pain Points):**  
+*   Incertidumbre sobre la hora de llegada de los envíos, lo que obliga a mantener personal de recepción en espera durante periodos prolongados [15].
+*   Imposibilidad de anticipar retrasos que puedan generar desabastecimiento o pérdida de frescura del producto [15].
+*   Falta de un canal formal para recibir información sobre incidencias en ruta de parte del transportista [15].
+*   Dificultad para evaluar el desempeño de sus proveedores de transporte al carecer de registros históricos de cumplimiento [15].
+*   En el caso de compradores formales, presión creciente de sus propias cadenas de auditoría interna para documentar la trazabilidad de su cadena de suministro [15].
 
