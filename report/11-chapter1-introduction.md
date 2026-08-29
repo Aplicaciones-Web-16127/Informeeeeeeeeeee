@@ -28,15 +28,24 @@ AgroFlet se posiciona inicialmente en el mercado peruano con foco en las princip
 
 ## 1.2. Solution Profile
 
-La solución propuesta por AgroFlet consiste en una plataforma web responsiva de monitoreo y gestión logística orientada a transformar la visibilidad, el control y la trazabilidad del transporte terrestre de alimentos y productos agrícolas perecibles en el Perú. Brindamos a los coordinadores logísticos, empresas de transporte y compradores mayoristas la capacidad de centralizar y registrar en tiempo casi real la información clave de cada viaje, incluyendo la ubicación de la unidad de carga, el tipo de alimento trasladado, los puntos de origen y destino, las horas de salida, las estimaciones de tiempo de entrega y el reporte de incidencias en ruta. A través de un dashboard intuitivo y simple, AgroFlet facilita la toma de decisiones estratégicas e informadas para mitigar las pérdidas postcosecha, reducir demoras no gestionadas y optimizar la coordinación de la cadena de suministro agroalimentaria a nivel nacional.
-
-### 1.2.1. Antecedentes y problemática
-
 En esta sección se describen las características principales de la solución propuesta, así como su propuesta de valor y modelo de monetización.
 
 **Product Description**
 
 AgroFlet es una plataforma web de monitoreo y gestión logística orientada a transformar la visibilidad, el control y la trazabilidad del transporte terrestre de alimentos y productos agrícolas perecibles en el Perú. La herramienta permite centralizar y registrar en tiempo casi real la información clave de cada viaje, incluyendo la ubicación de la unidad de carga, el tipo de alimento trasladado, los puntos de origen y destino, las horas de salida, las fechas estimadas de llegada y las incidencias que afecten la ruta.
+
+### 1.2.1. Antecedentes y problemática
+
+##### 1.2.1. Antecedentes y problemática
+
+El transporte de alimentos en el Perú constituye un eslabón crítico y frecuentemente subestimado dentro de la cadena de valor agroalimentaria. A diferencia de sectores como el minero o el manufacturero, donde la logística ha experimentado una digitalización progresiva, el transporte de productos agrícolas continúa operando bajo esquemas tradicionales basados en acuerdos verbales, registros en papel y comunicación telefónica informal (Ministerio de Agricultura y Riego [MIDAGRI], 2022).
+
+La problemática tiene raíces estructurales. Según el Banco Mundial (2021), el Perú presenta un índice de desempeño logístico (*Logistics Performance Index* o LPI) de 2.95 sobre 5.0, ubicándose por debajo del promedio regional latinoamericano de 3.14. Esta brecha logística impacta directamente en la competitividad del sector agrícola, pues el agricultor no puede garantizar tiempos de entrega confiables ni el comprador puede anticiparse a posibles retrasos o mermas en el producto.
+
+Los datos del Instituto Nacional de Estadística e Informática (INEI, 2022) revelan que aproximadamente el 35 % de la producción agrícola peruana se pierde entre la cosecha y el punto de venta, y que una parte significativa de esas pérdidas ocurre durante el transporte, ya sea por demoras, condiciones inadecuadas de la unidad o falta de comunicación entre los actores de la cadena. En términos económicos, esto equivale a pérdidas anuales superiores a los S/ 2,000 millones, según estimaciones del Centro Nacional de Planeamiento Estratégico (CEPLAN, 2023).
+
+A nivel internacional, experiencias como las de plataformas de trazabilidad logística en Brasil (Agrofy), Colombia (TigoUne Agro) o India (Arya.ag) demuestran que la digitalización del monitoreo del transporte agrícola puede reducir las pérdidas postcosecha en un rango del 10 % al 20 % y mejorar los ingresos de los pequeños agricultores hasta en un 25 %, según la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO, 2022). Sin embargo, estas soluciones no se han adaptado al contexto peruano, el cual presenta características particulares: una geografía accidentada con tramos de sierra que dificultan la conectividad, una alta informalidad en el sector transporte y un ecosistema de pequeños y medianos transportistas que operan de manera independiente.
+
 
 Para estructurar de manera rigurosa la descripción de la problemática, el equipo aplicó la técnica de análisis 5W's + 2H's:
 
