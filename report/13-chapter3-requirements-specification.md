@@ -62,4 +62,14 @@ Los criterios de aceptación de cada User Story están redactados en tiempo pres
 
 ## 3.2. Impact Mapping
 
+En esta sección se presenta el Impact Mapping del modelo de negocio AgroFlet. Esto nos permite visualizar de manera estructurada los objetivos estratégicos del proyecto y cómo estos se relacionan con los actores involucrados y las funcionalidades que se implementarán, asegurándonos de que cada característica del producto tenga un propósito claro y medible.
+
+![Impact Map](../assets/ImpactMapping1.png)
+
+El Impact Mapping elaborado para AgroFlet ilustra de manera estratégica cómo las funcionalidades de nuestra plataforma tecnológica contribuye a alcanzar nuestros objetivos de negocio. Para esta fase del proyecto, hemos definido un objetivo SMART (Business Goal) enfocados tanto en la adopción empresarial como en la penetración en el usuario final.
+
+**Alineación del Business Goal 1:** Nuestro primer objetivo de negocio busca reducir en un 35% el tiempo promedio de coordinación, asignación de flota y registro de despacho de cargamentos agrícolas durante los primeros 6 meses de operación. Para alcanzar esta meta, hemos identificado a dos actores clave de la cadena agropecuaria que nos permitirán materializarla: los medianos productores / acopiadores y los compradores mayoristas. 
+- En el caso de los medianos productores / acopiadores, el impacto que necesitamos generar es que digitalicen y sistematicen el registro de sus despachos y la administración de sus recursos de transporte, dejando atrás las llamadas telefónicas y registros manuales para agilizar la salida de alimentos perecibles hacia los mercados. Como solución digital, provocaremos este impacto construyendo un Módulo de Gestión de Flotas, Conductores y Registro Operativo (Deliverable), el cual se materializa en historias de usuario enfocadas en dar de alta las unidades vehiculares, registrar choferes, vincularlos formalmente para el servicio y crear operaciones de transporte completas con su carga y ruta programada (US05, US07, US08, US09).  
+- Por el lado de los compradores mayoristas, el impacto esperado es que adopten AgroFlet como su canal centralizado para planificar las ventanas de descarga y supervisar el flujo de camiones que ingresan a sus almacenes o puestos comerciales, reduciendo tiempos muertos en muelle. Para facilitar este comportamiento, implementaremos un Dashboard de Monitoreo Centralizado y Consulta Operativa (Deliverable), soportado por funcionalidades que permiten visualizar en tiempo casi real las operaciones en tránsito, consultar el detalle de los envíos en camino y revisar el historial de despachos pasados con filtros por fecha o tipo de alimento para coordinar la logística de recepción (US10, US11, US15).
+
 ## 3.3. Product Backlog
