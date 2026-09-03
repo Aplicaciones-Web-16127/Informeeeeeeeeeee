@@ -17,14 +17,94 @@ AgroFlet se posiciona inicialmente en el mercado peruano con foco en las princip
 
 **Visión:** Ser la plataforma de referencia en trazabilidad logística agroalimentaria en América Latina para el año 2030.
 ### 1.1.2. Perfiles de integrantes del equipo
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+<thead>
+<tr style="background-color: #f2f2f2; text-align: center;">
+<th>Foto</th>
+<th>Apellido y nombre</th>
+<th>Carrera</th>
+<th style="text-align: left;">Acerca de</th>
+</tr>
+</thead>
+<tbody>
 
-| Foto | Descripción |
-|:---:|:---|
-| <img src="../assets/Alca Morán, César Alejandro - U20241F027 - Profile.jpg" alt="Foto" width="120"> | **Alca Morán, César Alejandro - U20241F027**<br>Soy estudiante de Ingeniería de Software. Aporto conocimientos en desarrollo web, programación y trabajo en equipo. Me caracterizo por ser responsable, proactivo y comprometido con el aprendizaje y el desarrollo de nuevas habilidades.|
-| <img src="../assets/Centeno León, Adriano Samir - U20241D920 - Profile.jpg" alt="Foto" width="120"> | **Centeno León, Adriano Samir - U20241D920**<br>Estudiante de la carrera de Ingeniería de Software con conocimientos en programación, bases de datos y gestión de proyectos mediante Github. Referente a la gestión de trabajos en equipo, me gusta mantenerme organizado y cumplir con los plazos establecidos. |
-| <img src="../assets/Rivas Méndez, Bernie Aarón - U20241F109 - Profile.PNG" alt="Foto" width="120"> | **Rivas Méndez, Bernie Aarón - U20241F109**<br>Soy un estudiante de la carrera de Ingeniería de Software y curso el 5to ciclo de la carrera. En cuanto a los trabajos me gusta revisar y que estén completos a la hora de entregarlos. En cuanto a la programación me gusta ser ordenado y que tenga lógica, por lo cual prefiero programar el BackEnd, pero también hago el FrontEnd.|
-| <img src="ruta/a/tu/imagen.jpg" alt="Foto" width="120"> | **Rivas Castillo, Christoper Steven - U202323551**<br>descripción |
-| <img src="../assets/Tello Lima, Jose Alejandro - U202421618 - Profile.png" alt="Foto" width="120"> | **Tello Lima, Jose Alejandro - U202421618**<br>Soy estudiante de Ingeniería de Software. Aporto conocimientos en diseño de experiencias de usuario, interfaces web responsivas y mapeo de trayectorias utilizando herramientas como Figma y UXPressia, asegurando que la plataforma sea altamente intuitiva para el cliente. |
+<tr>
+<td align="center" valign="middle">
+  <img src="../assets/Alca Morán, César Alejandro - U20241F027 - Profile.jpg" alt="César Alca" width="120">
+</td>
+<td align="center" valign="middle">
+  <b>Alca Morán, César Alejandro</b><br>
+  <small>Código: U20241F027</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>
+  Aporto conocimientos en desarrollo web, programación y trabajo en equipo. Me caracterizo por ser responsable, proactivo y comprometido con el aprendizaje y el desarrollo de nuevas habilidades.
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle">
+  <img src="../assets/Centeno León, Adriano Samir - U20241D920 - Profile.jpg" alt="Adriano Centeno" width="120">
+</td>
+<td align="center" valign="middle">
+  <b>Centeno León, Adriano Samir</b><br>
+  <small>Código: U20241D920</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>
+  Conocimientos en programación, bases de datos y gestión de proyectos mediante GitHub. En el trabajo en equipo, me gusta mantenerme organizado y cumplir con los plazos establecidos.
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle">
+  <img src="../assets/Rivas Méndez, Bernie Aarón - U20241F109 - Profile.PNG" alt="Bernie Rivas" width="120">
+</td>
+<td align="center" valign="middle">
+  <b>Rivas Méndez, Bernie Aarón</b><br>
+  <small>Código: U20241F109</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>
+  Estudiante de 5to ciclo. Me gusta revisar que los entregables estén completos. En programación, valoro el orden y la lógica; tengo afinidad por el desarrollo del lado del servidor (<i>backend</i>), pero también domino el lado del cliente (<i>frontend</i>).
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle">
+  <img src="../assets/Rivas Castillo, Christoper Steven - U202323551 - Profile.jpg" alt="Christoper Rivas" width="120">
+</td>
+<td align="center" valign="middle">
+  <b>Rivas Castillo, Christoper Steven</b><br>
+  <small>Código: U202323551</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>
+  Estudiante de Ingeniería de Software con gran interés en el desarrollo web, diseño de APIs y ciberseguridad. Me caracterizo por mi perseverancia, esfuerzo y dedicación. Busco aportar al equipo soluciones digitales seguras, eficientes y un compromiso constante con la excelencia técnica.
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle">
+  <img src="../assets/Tello Lima, Jose Alejandro - U202421618 - Profile.png" alt="Jose Tello" width="120">
+</td>
+<td align="center" valign="middle">
+  <b>Tello Lima, Jose Alejandro</b><br>
+  <small>Código: U202421618</small>
+</td>
+<td align="center">Ingeniería de Software</td>
+<td>
+  Aporto conocimientos en diseño de experiencias de usuario (UX), interfaces web responsivas y mapeo de trayectorias utilizando herramientas como Figma y UXPressia, asegurando que la plataforma sea altamente intuitiva para el usuario final.
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<p align="center">
+  <em><strong>Nota:</strong> Información de los integrantes del equipo de desarrollo.</em>
+</p>
+
 
 ## 1.2. Solution Profile
 
@@ -47,48 +127,17 @@ A nivel internacional, experiencias como las de plataformas de trazabilidad log�
 
 Para estructurar de manera rigurosa la descripción de la problemática, el equipo aplicó la técnica de análisis 5W's + 2H's:
 
-*   **Who (¿Quiénes son los afectados?)**
-    Los principales actores afectados por la problemática son:
-    *   **Productores agrícolas y cooperativas:** Agricultores individuales o asociados que despachan sus productos desde zonas de producción (Ayacucho, Junín, La Libertad, Puno, entre otras) hacia mercados mayoristas y minoristas, principalmente en Lima Metropolitana. Según el Ministerio de Agricultura y Riego (MIDAGRI, 2022), el 78 % de las unidades agropecuarias en el Perú tienen menos de 5 hectáreas, lo que evidencia el perfil predominantemente pequeño y mediano del productor peruano.
-    *   **Empresas y operadores de transporte terrestre:** Transportistas formales e informales que prestan el servicio de flete agrícola. Según el Ministerio de Transportes y Comunicaciones (MTC, 2022), existen más de 80,000 unidades de carga habilitadas para el transporte terrestre de mercancías en el Perú, de las cuales una proporción significativa opera sin herramientas digitales de gestión.
-    *   **Compradores mayoristas y empresas distribuidoras:** Intermediarios que adquieren la producción agrícola para su distribución en mercados de abastos, supermercados y cadenas de restaurantes. La incertidumbre sobre los tiempos de llegada les impide planificar adecuadamente sus operaciones.
-    *   **Gestores logísticos y coordinadores de flota:** Responsables de la coordinación de múltiples unidades de transporte que carecen de herramientas unificadas para el monitoreo simultáneo de operaciones.
+| Dimensión 5W2H | Análisis |
+|:---:|:---|
+| **Who**<br>*(¿Quiénes son los afectados?)* | Los principales actores afectados por la problemática son:<br><br>• **Productores agrícolas y cooperativas:** Agricultores individuales o asociados que despachan sus productos desde zonas de producción (Ayacucho, Junín, La Libertad, Puno, entre otras) hacia mercados mayoristas y minoristas, principalmente en Lima Metropolitana. Según el MIDAGRI (2022), el 78 % de las unidades agropecuarias en el Perú tienen menos de 5 hectáreas, lo que evidencia el perfil predominantemente pequeño y mediano del productor peruano.<br><br>• **Empresas y operadores de transporte terrestre:** Transportistas formales e informales que prestan el servicio de flete agrícola. Según el MTC (2022), existen más de 80,000 unidades de carga habilitadas para el transporte terrestre de mercancías en el Perú, de las cuales una proporción significativa opera sin herramientas digitales de gestión.<br><br>• **Compradores mayoristas y empresas distribuidoras:** Intermediarios que adquieren la producción agrícola para su distribución en mercados de abastos, supermercados y cadenas de restaurantes. La incertidumbre sobre los tiempos de llegada les impide planificar adecuadamente sus operaciones.<br><br>• **Gestores logísticos y coordinadores de flota:** Responsables de la coordinación de múltiples unidades de transporte que carecen de herramientas unificadas para el monitoreo simultáneo de operaciones. |
+| **What**<br>*(¿Cuál es el problema?)* | El problema central es la **ausencia de visibilidad en tiempo casi real** sobre el estado y la ubicación de las unidades de transporte de alimentos durante su recorrido. Esta opacidad informacional genera:<br><br>• Incapacidad de anticipar retrasos o incidencias en ruta.<br>• Dificultad para coordinar la recepción del producto en destino.<br>• Pérdida de control sobre las condiciones del transporte, lo que puede derivar en deterioro de la carga.<br>• Incapacidad de generar registros históricos confiables sobre las operaciones, impidiendo la mejora continua del proceso logístico. |
+| **Where**<br>*(¿Dónde ocurre el problema?)* | El problema ocurre en las rutas de transporte terrestre de alcance nacional, con especial incidencia en los corredores viales que conectan las principales regiones productoras de alimentos con los centros de distribución y consumo. Los corredores más críticos incluyen:<br><br>• Ayacucho → Lima (papa, quinua, maíz)<br>• Junín → Lima (café, cítricos, papa)<br>• La Libertad → Lima (espárragos, palta, arándanos)<br>• Puno → Arequipa y Lima (quinua, cañihua, papa nativa)<br>• Cusco → Lima y Arequipa (maíz, papa, kiwicha)<br><br>Estas rutas concentran un alto volumen de carga agrícola y presentan tramos de difícil acceso geográfico que incrementan el riesgo de incidencias durante el trayecto (MTC, 2022). |
+| **When**<br>*(¿Cuándo ocurre el problema?)* | El problema es **continuo y estructural**, presente durante las 24 horas del día y los 7 días de la semana en cada operación de transporte. Se agudiza en periodos de alta demanda logística, como las campañas agrícolas de cosecha (enero-marzo y julio-septiembre), en los que el volumen de transporte se incrementa significativamente y la coordinación se vuelve más crítica (MIDAGRI, 2022). |
+| **Why**<br>*(¿Por qué ocurre el problema?)* | Las causas raíz del problema pueden clasificarse en tres niveles:<br><br>**1. Causas tecnológicas:** La mayoría de los operadores de transporte agrícola no cuenta con sistemas de rastreo GPS integrados ni con plataformas digitales de gestión de flotas. La penetración de soluciones de gestión de flotas en el sector es inferior al 15 % (MTC, 2022).<br><br>**2. Causas organizacionales:** La alta informalidad del sector (se estima que más del 40 % de los transportistas de carga agrícola opera sin habilitación formal vigente) dificulta la adopción de estándares tecnológicos (MTPE, 2023).<br><br>**3. Causas económicas:** El costo percibido de las soluciones tecnológicas existentes es elevado para el perfil de pequeño y mediano transportista, que opera con márgenes ajustados. Las soluciones disponibles en el mercado (como los sistemas ERP logísticos de gran escala) no están diseñadas para este segmento. |
+| **How**<br>*(¿Cómo ocurre el problema?)* | En la práctica, el proceso logístico de transporte de alimentos funciona de la siguiente manera: el productor o acopiador contrata verbalmente a un transportista, acuerdan el precio del flete y la fecha de salida, y el seguimiento del envío se realiza exclusivamente mediante llamadas telefónicas al conductor. Si ocurre una incidencia —avería mecánica, bloqueo de vía, accidente— la comunicación depende de que el conductor tenga señal telefónica y decida informar a la contraparte. No existe registro formal de la operación, ni trazabilidad del recorrido, ni mecanismo de alerta temprana. El comprador en destino tampoco tiene visibilidad sobre el estado del envío y solo puede estimar tiempos de llegada con base en experiencias previas o comunicaciones informales. |
+| **How Much**<br>*(¿Cuánto impacta el problema?)* | El impacto económico de la problemática es considerable:<br><br>• Las pérdidas postcosecha asociadas a deficiencias logísticas en el Perú ascienden a más de S/ 2,000 millones anuales (CEPLAN, 2023).<br>• El tiempo promedio de retraso no gestionado en rutas de sierra-costa es de entre 4 y 8 horas por viaje, lo que equivale a una pérdida de frescura y calidad del producto (MIDAGRI, 2022).<br>• La incertidumbre en los tiempos de entrega obliga a los compradores a mantener inventarios de seguridad más elevados, incrementando sus costos operativos (Banco Mundial, 2021).<br>• Las empresas transportistas que no cuentan con registros de sus operaciones pierden oportunidades de negocio con clientes que exigen trazabilidad como condición de contratación (FAO, 2022). |
 
-*   **What (¿Cuál es el problema?)**
-    El problema central es la **ausencia de visibilidad en tiempo casi real** sobre el estado y la ubicación de las unidades de transporte de alimentos durante su recorrido. Esta opacidad informacional genera:
-    *   Incapacidad de anticipar retrasos o incidencias en ruta.
-    *   Dificultad para coordinar la recepción del producto en destino.
-    *   Pérdida de control sobre las condiciones del transporte, lo que puede derivar en deterioro de la carga.
-    *   Incapacidad de generar registros históricos confiables sobre las operaciones, impidiendo la mejora continua del proceso logístico.
 
-*   **Where (¿Dónde ocurre el problema?)**
-    El problema ocurre en las rutas de transporte terrestre de alcance nacional, con especial incidencia en los corredores viales que conectan las principales regiones productoras de alimentos con los centros de distribución y consumo. Los corredores más críticos incluyen:
-    *   Ayacucho → Lima (papa, quinua, maíz)
-    *   Junín → Lima (café, cítricos, papa)
-    *   La Libertad → Lima (espárragos, palta, arándanos)
-    *   Puno → Arequipa y Lima (quinua, cañihua, papa nativa)
-    *   Cusco → Lima y Arequipa (maíz, papa, kiwicha)
-    
-    Estas rutas concentran un alto volumen de carga agrícola y presentan tramos de difícil acceso geográfico que incrementan el riesgo de incidencias durante el trayecto (MTC, 2022).
-
-*   **When (¿Cuándo ocurre el problema?)**
-    El problema es **continuo y estructural**, presente durante las 24 horas del día y los 7 días de la semana en cada operación de transporte. Se agudiza en periodos de alta demanda logística, como las campañas agrícolas de cosecha (enero-marzo y julio-septiembre), en los que el volumen de transporte se incrementa significativamente y la coordinación se vuelve más crítica (MIDAGRI, 2022).
-
-*   **Why (¿Por qué ocurre el problema?)**
-    Las causas raíz del problema pueden clasificarse en tres niveles:
-    1.  **Causas tecnológicas:** La mayoría de los operadores de transporte agrícola no cuenta con sistemas de rastreo GPS integrados ni con plataformas digitales de gestión de flotas. La penetración de soluciones *fleet management* en el sector es inferior al 15 % (MTC, 2022).
-    2.  **Causas organizacionales:** La alta informalidad del sector (se estima que más del 40 % de los transportistas de carga agrícola opera sin habilitación formal vigente) dificulta la adopción de estándares tecnológicos (Ministerio de Trabajo y Promoción del Empleo [MTPE], 2023).
-    3.  **Causas económicas:** El costo percibido de las soluciones tecnológicas existentes es elevado para el perfil de pequeño y mediano transportista, que opera con márgenes ajustados. Las soluciones disponibles en el mercado (como los sistemas ERP logísticos de gran escala) no están diseñadas para este segmento.
-
-*   **How (¿Cómo ocurre el problema?)**
-    En la práctica, el proceso logístico de transporte de alimentos funciona de la siguiente manera: el productor o acopiador contrata verbalmente a un transportista, acuerdan el precio del flete y la fecha de salida, y el seguimiento del envío se realiza exclusivamente mediante llamadas telefónicas al conductor. Si ocurre una incidencia —avería mecánica, bloqueo de vía, accidente— la comunicación depende de que el conductor tenga señal telefónica y decida informar a la contraparte. No existe registro formal de la operación, ni trazabilidad del recorrido, ni mecanismo de alerta temprana. El comprador en destino tampoco tiene visibilidad sobre el estado del envío y solo puede estimar tiempos de llegada con base en experiencias previas o comunicaciones informales.
-
-*   **How Much (¿Cuánto impacta el problema?)**
-    El impacto económico de la problemática es considerable:
-    *   Las pérdidas postcosecha asociadas a deficiencias logísticas en el Perú ascienden a más de S/ 2,000 millones anuales (CEPLAN, 2023).
-    *   El tiempo promedio de retraso no gestionado en rutas de sierra-costa es de entre 4 y 8 horas por viaje, lo que equivale a una pérdida de frescura y calidad del producto (MIDAGRI, 2022).
-    *   La incertidumbre en los tiempos de entrega obliga a los compradores a mantener inventarios de seguridad más elevados, incrementando sus costos operativos (Banco Mundial, 2021).
-    *   Las empresas transportistas que no cuentan con registros de sus operaciones pierden oportunidades de negocio con clientes que exigen trazabilidad como condición de contratación (FAO, 2022).
 Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos orientados al negocio, al proceso de ingeniería y a la experiencia del usuario:
 
 #### 1.2.1.1. Objetivos del Proyecto
@@ -121,7 +170,7 @@ El ciclo de vida de desarrollo de AgroFlet está sujeto a un conjunto de limitac
 
 El equipo aplicó la versión *Brand new initiative* del template de Lean UX Problem Statement:
 
-**The current state of* agricultural food transportation logistics in Peru *has focused mainly on** informal operators who manage freight transport without digital tools, relying on verbal agreements, phone calls, and paper records, unable to provide real-time visibility on shipment location or status to producers, buyers, and logistics coordinators.
+**The current state of** agricultural food transportation logistics in Peru *has focused mainly on** informal operators who manage freight transport without digital tools, relying on verbal agreements, phone calls, and paper records, unable to provide real-time visibility on shipment location or status to producers, buyers, and logistics coordinators.
 
 **What existing products/services fail to address is** an affordable, accessible, and sector-specific digital monitoring platform that consolidates fleet tracking, incident reporting, and shipment management in a single interface adapted to the operational reality of Peruvian agricultural transport actors.
 
