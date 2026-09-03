@@ -16,7 +16,7 @@ Docente <br>
 Equipo <br>
 #### **MadaGroup**
 Proyecto <br>
-#### **Refrio**
+#### **AGROFLET**
 
 **Integrantes**
 
